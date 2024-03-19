@@ -52,10 +52,10 @@ export default function Dashboard({user}) {
       </div>
 
       <div>
-        <iframe
+        <iframe 
             className='mx-auto rounded-lg shadow-lg '
             width="1000 " height="500"
-            src='https://www.youtube.com/embed/p34sK9AYQN4?si=sTOjd_FrDDO9IntD'>
+            src="https://www.youtube.com/embed/XAi3VTSdTxU?si=LzRzWji3F2nQWS-w">
         </iframe>
       </div>
     </div>

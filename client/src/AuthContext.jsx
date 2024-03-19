@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
     const login = async (username, password) => {
         try {
             const response = await axios.post(
-                "http://localhost:8000/api/login",
+                "http://localhost:8001/api/login",
                 {
                     username,
                     password,
@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
     const register = async (username, email, password, confirmPassword) => {
         try {
             const response = await axios.post(
-                "http://localhost:8000/api/register",
+                "http://localhost:8001/api/register",
                 {
                     username,
                     email,
@@ -70,7 +70,7 @@ export const AuthProvider = ({ children }) => {
 
     const logout = async () => {
         try {
-            axios.post("http://localhost:8000/api/logout", {
+            axios.post("http://localhost:8001/api/logout", {
                 withCredentials: true,
             });
             setUser(null);

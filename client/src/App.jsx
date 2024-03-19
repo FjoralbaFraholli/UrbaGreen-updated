@@ -1,4 +1,3 @@
-
 import FrontPage from './views/FrontPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useAuth } from './AuthContext';

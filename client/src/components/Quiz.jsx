@@ -102,7 +102,7 @@ function Quiz() {
             }
         },
         {
-            question: "How many of these do you have/do?",
+            question: "Which of these do you have/do?",
             options: ["Have a wooden toothbrush", "Turn off the lights when you leave a room", "Turn your TV off, not leaving it on standby", "Wear a jumper instead of heating the house", "Only boil the water you need", "Cold wash your clothes", "Grow food", "None of the above"],
             criteria: {
                 "Have a wooden toothbrush": 0,

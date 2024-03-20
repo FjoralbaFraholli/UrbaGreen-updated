@@ -53,7 +53,6 @@ FOLDER STRUCTURE
 - server.js
 
 
-
 USAGE
 1.	Navigate through different environmental topics such as air, water, earth, and animals using the provided links to get detailed information for each of the topics.
 2.	Take our quiz to calculate your own carbon footprint.
@@ -66,6 +65,11 @@ INSTALLATION
 2.	Navigate to the project directory and install dependencies: npm install
 3.	Start the development server: npm start
 4.	Open http://localhost:5173 to view the project in your browser.
+
+CREDITS
+- This group project was finalized in collaboration with:
+   1. Grejs Papathimiu - https://github.com/gpapathimiu
+   2. Eneda Hasa - https://github.com/enedahasa
 
 CONTRIBUTING
 - We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
